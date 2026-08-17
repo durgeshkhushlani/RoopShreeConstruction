@@ -1,0 +1,15 @@
+# Local DB config (contains credentials) — commit db.example.php as the template instead
+public_html/includes/db.php
+.env
+
+# Uploaded content (user/admin generated, not source)
+public_html/uploads/projects/*
+!public_html/uploads/projects/.gitkeep
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# Docker
+postgres-data/
