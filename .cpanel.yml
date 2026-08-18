@@ -4,3 +4,5 @@ deployment:
     - export DEPLOYPATH=/home3/oopshree/public_html/staging/
     - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp -R public_html/. $DEPLOYPATH
+    - /usr/bin/find $DEPLOYPATH -type d -exec /bin/chmod 755 {} \;
+    - /usr/bin/find $DEPLOYPATH -type f -exec /bin/chmod 644 {} \;
