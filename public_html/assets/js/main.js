@@ -8,6 +8,47 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  var filterBar = document.getElementById('filterBar');
+  var propertyGrid = document.getElementById('propertyGrid');
+  var filterEmptyState = document.getElementById('filterEmptyState');
+  if (filterBar && propertyGrid) {
+    filterBar.addEventListener('click', function (e) {
+      var btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+
+      filterBar.querySelectorAll('.filter-btn').forEach(function (b) {
+        b.classList.remove('is-active');
+      });
+      btn.classList.add('is-active');
+
+      var filter = btn.dataset.filter;
+      var cards = propertyGrid.querySelectorAll('.property-card');
+      var visibleCount = 0;
+
+      cards.forEach(function (card) {
+        var match = filter === 'All' || card.dataset.type === filter;
+        card.style.display = match ? '' : 'none';
+        if (match) visibleCount++;
+      });
+
+      if (filterEmptyState) {
+        filterEmptyState.style.display = visibleCount === 0 ? '' : 'none';
+      }
+    });
+  }
+
+  var galleryThumbs = document.querySelectorAll('.property-gallery__thumb');
+  var galleryMainImage = document.getElementById('galleryMainImage');
+  if (galleryThumbs.length && galleryMainImage) {
+    galleryThumbs.forEach(function (thumb) {
+      thumb.addEventListener('click', function () {
+        galleryMainImage.src = thumb.dataset.src;
+        galleryThumbs.forEach(function (t) { t.classList.remove('is-active'); });
+        thumb.classList.add('is-active');
+      });
+    });
+  }
+
   var contactForm = document.getElementById('contactForm');
   if (contactForm) {
     contactForm.addEventListener('submit', function (e) {
