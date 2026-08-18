@@ -19,6 +19,7 @@ if ($id) {
 }
 
 $pageTitle = $project ? $project['title'] : 'Property Not Found';
+$pageDescription = $project ? ($project['short_desc'] ?? $project['title']) : 'This property could not be found.';
 require __DIR__ . '/includes/header.php';
 ?>
 

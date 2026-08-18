@@ -1,0 +1,12 @@
+# Uploaded files are user-supplied — never execute PHP from this directory,
+# even if an attacker manages to get a malicious file past upload validation.
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7|pht)$">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+    php_flag engine off
+</IfModule>
