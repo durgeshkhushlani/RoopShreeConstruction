@@ -1,5 +1,7 @@
-# Local DB config (contains credentials) — commit db.example.php as the template instead
+# Local DB/mail config (contains credentials) — commit the .example.php templates instead
 public_html/includes/db.php
+public_html/includes/mail.php
+public_html/storage/contact-log.txt
 .env
 
 # Uploaded content (user/admin generated, not source)
