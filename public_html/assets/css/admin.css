@@ -1,0 +1,52 @@
+/* ===== Admin login ===== */
+.admin-body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-primary-light);
+}
+.admin-login__card {
+  width: 100%;
+  max-width: 380px;
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 40px 36px;
+  margin: 24px;
+}
+
+/* ===== Admin shell (dashboard) ===== */
+.admin-shell { min-height: 100vh; background: var(--color-bg); }
+.admin-topbar {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding-block: 16px;
+}
+.admin-topbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.admin-topbar__user { display: flex; align-items: center; gap: 16px; font-size: 0.9rem; color: var(--color-text-muted); }
+.admin-main { padding-block: 40px; }
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.admin-table th, .admin-table td {
+  text-align: left;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.92rem;
+}
+.admin-table th { background: var(--color-primary-light); color: var(--color-primary-dark); font-weight: 600; }
+.admin-table tr:last-child td { border-bottom: none; }
+
+.admin-actions { display: flex; gap: 10px; }
+.admin-actions .btn { padding: 8px 16px; font-size: 0.85rem; }
