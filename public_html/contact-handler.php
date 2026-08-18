@@ -20,7 +20,7 @@ if ($name === '' || $email === '' || $phone === '' || $message === '' || !filter
 }
 
 $config = require __DIR__ . '/includes/mail.php';
-$devMode = $config['smtp_host'] === 'CHANGE_ME';
+$devMode = $config['smtp_host'] === 'CHANGE_ME' || $config['smtp_pass'] === 'ENTER_PASSWORD_HERE';
 
 $body = "New enquiry from the website contact form:\n\n"
     . "Name: $name\n"
