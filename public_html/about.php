@@ -15,28 +15,29 @@ require __DIR__ . '/includes/header.php';
   <div class="container" style="max-width: 780px;">
     <h2>Our Story</h2>
     <p style="margin-top: 16px;">
-      Roop Shree Construction has been building flats, plots, villas, and commercial spaces across Jodhpur,
-      with a focus on transparent processes, quality materials, and timely delivery. Every project we take on
-      is treated as a long-term commitment to the families and businesses who choose to build their future with us.
+      At Roop Shree Construction, based in the heart of Jodhpur, we've been shaping dreams into reality for
+      over a decade. With a solid track record of successful, sold-out projects and many more in the pipeline,
+      we specialize in crafting premium villas and offering well-planned residential plots.
     </p>
     <p style="margin-top: 16px;">
-      Our team oversees every stage of development — from land approval and RERA compliance to final handover —
-      so buyers can invest with confidence.
+      What sets us apart is our commitment to transparency — from clear documentation to open communication,
+      we ensure our clients feel confident at every step. All our projects are RERA and JDA-approved,
+      reinforcing our promise of trust, quality, and long-term value.
     </p>
 
-    <h2 style="margin-top: 48px;">Why Choose Us</h2>
+    <h2 style="margin-top: 48px;">Our Every Project Comes With</h2>
     <div class="property-grid" style="margin-top: 24px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
       <div>
-        <h3>RERA Compliant</h3>
-        <p>All eligible projects are registered and compliant with RERA regulations.</p>
+        <h3>JDA &amp; RERA Approval</h3>
+        <p>All projects are approved by Jodhpur Development Authority (JDA) and RERA.</p>
       </div>
       <div>
-        <h3>Transparent Pricing</h3>
-        <p>Clear, upfront pricing with no hidden costs.</p>
+        <h3>Loan Availability</h3>
+        <p>Our every project is bank loanable. Up to 90%* loan is available with all major banks.</p>
       </div>
       <div>
-        <h3>Quality Construction</h3>
-        <p>Trusted materials and experienced contractors on every site.</p>
+        <h3>Golden Opportunity</h3>
+        <p>Perfect time to invest in a city having rich cultural heritage &amp; modern development.</p>
       </div>
     </div>
   </div>

@@ -30,8 +30,7 @@ if (isset($_GET['added'])) {
   <header class="admin-topbar">
     <div class="container admin-topbar__inner">
       <div class="logo">
-        <span class="logo__mark" aria-hidden="true">RS</span>
-        <span class="logo__text">Roop Shree<br><small>Construction Admin</small></span>
+        <img src="/assets/logo/logo.png" alt="Roop Shree Construction" class="logo__image">
       </div>
       <div class="admin-topbar__user">
         <span>Signed in as <?= htmlspecialchars($_SESSION['admin_username']) ?></span>

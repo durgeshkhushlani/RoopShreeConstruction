@@ -60,8 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body class="admin-body">
 <div class="admin-login__card">
   <div class="logo" style="justify-content:center; margin-bottom:28px;">
-    <span class="logo__mark" aria-hidden="true">RS</span>
-    <span class="logo__text">Roop Shree<br><small>Construction</small></span>
+    <img src="/assets/logo/logo.png" alt="Roop Shree Construction" class="logo__image">
   </div>
   <h1 style="text-align:center; font-size:1.3rem; margin-bottom:24px;">Admin Login</h1>
 

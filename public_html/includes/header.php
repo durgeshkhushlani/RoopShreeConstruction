@@ -17,8 +17,7 @@ $currentPage = basename($_SERVER['SCRIPT_NAME']);
 <header class="site-header">
   <div class="container site-header__inner">
     <a href="/index.php" class="logo" aria-label="Roop Shree Construction — Home">
-      <span class="logo__mark" aria-hidden="true">RS</span>
-      <span class="logo__text">Roop Shree<br><small>Construction</small></span>
+      <img src="/assets/logo/logo.png" alt="Roop Shree Construction" class="logo__image">
     </a>
 
     <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle menu">

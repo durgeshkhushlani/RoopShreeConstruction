@@ -12,8 +12,7 @@
   <div class="container site-footer__inner">
     <div class="site-footer__col">
       <div class="logo logo--footer">
-        <span class="logo__mark" aria-hidden="true">RS</span>
-        <span class="logo__text">Roop Shree<br><small>Construction</small></span>
+        <img src="/assets/logo/logo.png" alt="Roop Shree Construction" class="logo__image">
       </div>
       <p class="site-footer__tagline">Building trusted homes and spaces in Jodhpur.</p>
     </div>
@@ -28,8 +27,9 @@
 
     <div class="site-footer__col">
       <h3>Contact</h3>
-      <p>Jodhpur, Rajasthan, India</p>
-      <p><a href="tel:+910000000000">+91 00000 00000</a></p>
+      <p>Flat No. 102, Jeet Apartment,<br>Near HDFC Bank, Ratanada, Jodhpur</p>
+      <p><a href="tel:+919782310601">+91 9782 310 601</a></p>
+      <p><a href="tel:+919351574127">+91 9351 574 127</a></p>
       <p><a href="mailto:info@roopshreeconstruction.com">info@roopshreeconstruction.com</a></p>
     </div>
 

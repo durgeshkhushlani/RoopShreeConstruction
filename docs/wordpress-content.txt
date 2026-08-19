@@ -1,0 +1,19 @@
+content taken from wordpress- 
+
+about content = 
+
+Our Story
+At Roop Shree Construction , based in the heart of Jodhpur, we've been shaping dreams into reality for over a decade. With a solid track record of successful, sold-out projects and many more in the pipeline, we specialize in crafting premium villas and offering well-planned residential plots.
+
+What sets us apart is our commitment to transparency, from clear documentation to open communication, we ensure our clients feel confident at every step. All our projects are RERA and JDA-approved , reinforcing our promise of trust, quality, and long-term value.
+
+## an image is attached with the prompt to which this file is given use those cards to update the site 
+
+contact info = 
+
+Contact Us
++91 9782 310 601
++91 9351 574 127
+info@roopshreeconstruction.com
+Visit Us 
+Flat No. 102, Jeet Apartment, Near HDFC Bank, Ratanada, Jodhpur 
