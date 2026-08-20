@@ -99,10 +99,10 @@ p { color: var(--color-text-muted); }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-block: 14px;
+  padding-block: 0;
 }
 .logo { display: flex; align-items: center; gap: 12px; }
-.logo__image { height: 88px; width: auto; display: block; }
+.logo__image { height: 104px; width: auto; display: block; }
 
 .primary-nav { display: flex; gap: 32px; }
 .primary-nav a {
@@ -390,6 +390,9 @@ section { padding-block: 72px; }
 .site-footer a { display: block; color: var(--color-text-muted); margin-bottom: 10px; }
 .site-footer a:hover { color: var(--color-primary); }
 .site-footer__tagline { margin-top: 14px; font-size: 0.9rem; }
+.logo--footer { justify-content: center; }
+.logo--footer .logo__image { height: 150px; }
+.site-footer__col:first-child { text-align: center; }
 .social-icons { display: flex; gap: 10px; }
 .social-icons a {
   width: 36px; height: 36px;

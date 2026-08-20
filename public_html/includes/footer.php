@@ -36,9 +36,8 @@
     <div class="site-footer__col">
       <h3>Follow</h3>
       <div class="social-icons">
-        <a href="#" aria-label="Facebook">FB</a>
-        <a href="#" aria-label="Instagram">IG</a>
-        <a href="#" aria-label="WhatsApp">WA</a>
+        <a href="https://www.facebook.com/RoopShreeConstruction/" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+        <a href="mailto:info@roopshreeconstruction.com" aria-label="Email">@</a>
       </div>
     </div>
   </div>
