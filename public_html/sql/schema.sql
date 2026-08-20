@@ -46,7 +46,7 @@ $$ LANGUAGE plpgsql;
 
 CREATE TRIGGER trg_projects_updated_at
 BEFORE UPDATE ON projects
-FOR EACH ROW EXECUTE FUNCTION set_updated_at();
+FOR EACH ROW EXECUTE PROCEDURE set_updated_at();
 
 -- Seed admin_users manually with a bcrypt-hashed password (generated via PHP password_hash()),
 -- never typed in plaintext anywhere. Not done here — see deploy/seed step.
